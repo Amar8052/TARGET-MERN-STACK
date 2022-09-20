@@ -51,25 +51,24 @@ h5{
     height: 75px;
     margin: auto;
 }
-.icon{
+.icone{
     width: 200px;
-    float: left;
     height: 70px;
-   
+    float: left;
 }.logo{
     color: orange;
-    font-size: 35px;
+    font-size: 50px;
     font-family: 'Times New Roman', Times, serif;
-    padding-left: 0px;
+    padding-left: 10px;
     padding-top: 10px;
-
+    float: left;
   
 }
     
 .menu{
     width: 400px;
     float: left;
-    height: 70px;
+    height: 35px;
 }
 ul{
     float: left;
@@ -81,10 +80,11 @@ ul{
 }
 ul li{
     list-style: none;
-    margin-left: 62px;
-    margin-top: 27px;
-    font-size: 14px;
-    padding-top: 15px;
+    color: white;
+    margin-left: 60px;
+    margin-top: 10px;
+    font-size: 25px;
+    padding-top: 10px;
    
 }
 ul li a{
@@ -96,10 +96,36 @@ ul li a{
 
 }
 ul li a:hover{
-    color:orange;
+    color: brown;
 }.search{
+    width: 330px;
+    float: right;
+ 
+}.search{
+    font-family: 'Times New Roman', Times, serif;
     width: 20px;
+    height: 48px;
+    border: 1px orange;
+    margin-top: 10px;
+    color: aliceblue;
+    border-right: none;
+    font-size: 16px;
     float: left;
-    margin-left: 10px;
     padding-top: 10px;
+    padding-left: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}.btn{
+    width: 100px;
+    height: 40px;
+    background-color: orange;
+    /* border: 2px solid orange; */
+    margin-top: 15px;
+    color: aliceblue;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}.btn:focus{
+    outline: none;
+}.search:focus{
+    outline: none;
 }
