@@ -126,7 +126,7 @@ ul li a:hover{
     color: aliceblue;
     border-bottom-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    float: right;
+  
     
 }.btn:focus{
     outline: none;
