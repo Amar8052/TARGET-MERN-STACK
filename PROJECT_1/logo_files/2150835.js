@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[302],{1012:function(n){n.exports=JSON.parse('{"title":"Change Text Align","tippy":""}')}}]);

@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[209],{1508:function(n,t,e){"use strict";e.r(t);var o={transition:"fade",components:{IdeasControl:e(1353).a}},l=e(11),component=Object(l.a)(o,(function(){var n=this.$createElement;return(this._self._c||n)("IdeasControl",{staticClass:"space-y-4"})}),[],!1,null,null,null);t.default=component.exports}}]);
