@@ -99,13 +99,15 @@ li{
 }
 .Exclusive{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(200px,1fr))
-    grid-gap: 30px;
+  grid-template-rows:1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns:1fr 1fr 1fr 1fr  1fr;
+  row-gap: 20px;
+  column-gap: 20px;
    
 }
 .Exclusive div img{
     width: 100%;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 .Exclusive div{
     position: relative;
@@ -113,13 +115,9 @@ li{
 }
 .Exclusive div span{
     position: absolute;
-    top: 70%;
-    left:0%;
-    
-    transform: translate(-50% -50%);
-    text-align: center;
-    color: rgb(22, 2, 2);
-    font-family: 'Times New Roman', Times, serif;
-    font-size:larger;
-   
+    top: 50%;
+    left: 40%;
+    /* transform: translate(123px 123px); */
+    /* text-align: center;
+*/color: aliceblue;
 }
