@@ -99,10 +99,10 @@ li{
 }
 .Exclusive{
     display: grid;
-  grid-template-rows:1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows:(5 1fr);
   grid-template-columns:1fr 1fr 1fr 1fr  1fr;
-  row-gap: 20px;
-  column-gap: 20px;
+  row-gap: 40px;
+  column-gap: 40px;
    
 }
 .Exclusive div img{
@@ -120,4 +120,27 @@ li{
     /* transform: translate(123px 123px); */
     /* text-align: center;
 */color: aliceblue;
+}
+/* ---------------Trendingplace------------ */
+.trending{
+    display: grid;
+    grid-template-rows:(5 1fr);
+    grid-template-columns:1fr 1fr 1fr 1fr  1fr;
+    row-gap: 40px;
+    column-gap: 40px;
+    margin-bottom: 30px;
+}
+.trending div img{
+    width: 100%;
+    border-radius: 10px;
+    height: 400px;
+}
+.trending h3{
+    font-weight: 600;
+    margin-top: 10px;
+}
+/* ---------coll to action -------------- */
+.cta{
+    margin: 80px;
+    background-image: linear-gradient(to right white , transparent) url(image112.png);
 }
